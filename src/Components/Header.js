@@ -10,10 +10,11 @@ class Header extends Component {
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+    const alexandrialogo = "images/alexandrialogo1.png";
 
     return (
-      <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+      <><header id="home">
+        <ParticlesBg type="lines" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -44,13 +45,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+                Projects
               </a>
             </li>
           </ul>
@@ -67,11 +62,8 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href={'https://tryalexandria.com'} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Check out my most recent project
                 </a>
               </ul>
             </Fade>
@@ -79,11 +71,46 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#Alexandria">
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header>
+      </header><header id="Alexandria">
+          <ParticlesBg type="lines" bg={true} />
+          <div className="row banner">
+            <div className="banner-text">
+              <Fade bottom>
+                <div className="react-reveal three columns">
+                  <img
+                    className=""
+                    src={alexandrialogo}
+                    alt="Alexandria Logo"
+                  />
+                </div>
+              </Fade>
+              <Fade bottom duration={1200}>
+                <h3 className="react-reveal">{"Alexandria, an interactive app for learning languages through texts, is by far the most technically interesting and challenging project I've worked on. To understand the current extent of my engineering abilities, it's worth taking a look at Alexandria. I would recommend looking at the case study to see the technical decisions that we made and why we made them, as well as a walkthough of how we went about designing the app and the challenges we overcame."}.</h3>
+              </Fade>
+              <hr />
+              <Fade bottom duration={2000}>
+                <ul className="social">
+                  <a href={'https://alexandria-reader.github.io/'} className="button btn project-btn">
+                    <i className="fa fa-book"></i>Case Study
+                  </a>
+                  <a href={'https://github.com/alexandria-reader'} className="button btn github-btn">
+                    <i className="fa fa-github"></i>Github
+                  </a>
+                </ul>
+              </Fade>
+            </div>
+          </div>
+
+          <p className="scrolldown">
+            <a className="smoothscroll" href="#about">
+              <i className="icon-down-circle"></i>
+            </a>
+          </p>
+        </header></>
     );
   }
 }
