@@ -3,7 +3,7 @@
     "name":"Eamon O'Callaghan",
     "description":"I am a Full Stack Software Engineer who is passionate about problem solving. I have a strong foundation in JavaScript, HTML and CSS and have used TypeScript, React and Tailwind in recent projects. I recently co-created Alexandria, an interactive language learning app. I write about JavaScript over at Medium.",
     "image":"profilepic.jpg",
-    "bio":"I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved with my wife to Belgium. I speak English and Spanish fluently, and am currently working on improving my intermediate level French. I love probelm solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife.",
+    "bio":"I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved with my wife to Belgium. I speak English and Spanish fluently, and am currently working on improving my intermediate level French. I love problem solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife. I spent 7 years as a teacher which has helped me to break down difficult concepts and explain technical concepts in an easy to understand manner.",
     "contactmessage":"Get in touch with me here.",
     "email": "eamon0989@gmail.com",
     "phone": "631002624",
@@ -100,6 +100,18 @@
         "category":"An interactive web app for learning languages through reading.",
         "image":"alexandria.png",
         "url":"https://tryalexandria.com"
+      },
+      {
+        "title":"Contacts manager",
+        "category":"An interactive full stack contacts manager with support for tags.",
+        "image":"contactsmanager.png",
+        "url":"https://contacts-manager-fullstack.herokuapp.com/"
+      },
+      {
+        "title":"Launch School time estimator",
+        "category":"An interactive app that helps you estimate how long it will take you to complete Launch School.",
+        "image":"lsestimate.png",
+        "url":"https://launchschooltimeestimate.netlify.app/"
       }
     ]
   }
