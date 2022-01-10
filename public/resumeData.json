@@ -42,7 +42,7 @@
     "skillmessage":"Here is my level of comfort with each skill and technology below. I am very comforable with reading and learning from documention, so I can get up to scratch quickly.",
     "education":[
       {
-        "school":"Launch School?",
+        "school":"Launch School",
         "degree":"Software Engineering Program",
         "graduated":"October 2021",
         "description":"A program that focuses on mastering the fundamentals of software engineering."
@@ -59,7 +59,7 @@
         "company":"SPOT lead at Launch School",
         "title":"SPOT lead at Launch School",
         "years":"September 2021 - November 2021",
-        "description":"Lead sessions to help fellow students understand various aspects of JavaScript, object oriented programming, Prototypal inheritance, etc."
+        "description":"Lead sessions to help fellow students understand various aspects of JavaScript, including object oriented programming, prototypal inheritance, etc."
       }
     ],
     "skills":[
