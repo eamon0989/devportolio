@@ -3,7 +3,7 @@
     "name":"Eamon O'Callaghan",
     "description":"I am a Full Stack Software Engineer who is passionate about problem solving. I have a strong foundation in JavaScript, HTML and CSS and have used TypeScript, React and Tailwind in recent projects. I recently co-created Alexandria, an interactive language learning app. I write about JavaScript over at Medium.",
     "image":"profilepic.jpg",
-    "bio":"I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved with my wife to Belgium. I speak English and Spanish fluently, and am currently working on improving my intermediate level French. I love problem solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife. I spent 7 years as a teacher which has helped me to break down difficult concepts and explain technical concepts in an easy to understand manner.",
+    "bio":["I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved with my wife to Belgium. I speak English and Spanish fluently, and am currently working on improving my intermediate level French. I love problem solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife.", "Before I started coding, I spent 7 years as a teacher which has helped me to break down difficult concepts and explain technical concepts in an easy to understand manner. I have always enjoyed learning languages and I speak several to varying degrees of fluency. The experience gained learning languages has helped me pick up programming languages quickly."],
     "contactmessage":"Get in touch with me here.",
     "email": "eamon0989@gmail.com",
     "phone": "631002624",
@@ -14,7 +14,7 @@
       "state":"Belgium"
     },
     "website": "http://www.eamon.eu",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1HGwtuA8FXR1mEyIOJMv2mmPRvFCDlk1L/view?usp=sharing",
     "social":[
       {
         "name":"medium",
