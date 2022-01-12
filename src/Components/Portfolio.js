@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
+import Fade from "react-awesome-reveal";
 
 let id = 0;
 class Portfolio extends Component {

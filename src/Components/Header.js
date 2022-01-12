@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
+import Fade from "react-awesome-reveal";
 
 class Header extends Component {
   render() {
@@ -78,7 +78,7 @@ class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <Fade bottom>
-                <div className="react-reveal three columns">
+                <div className="react-awesome-reveal three columns">
                   <img
                     className=""
                     src={alexandrialogo}
@@ -87,7 +87,7 @@ class Header extends Component {
                 </div>
               </Fade>
               <Fade bottom duration={1200}>
-                <h3 className="react-reveal">{"Alexandria, an interactive app for learning languages through texts, is by far the most technically interesting and challenging project I've worked on. To understand the current extent of my engineering abilities, it's worth taking a look at Alexandria. I would recommend looking at the case study to see the technical decisions that we made and why we made them, as well as a walkthough of how we went about designing the app and the challenges we overcame."}</h3>
+                <h3 className="react-awesome-reveal">{"Alexandria, an interactive app for learning languages through texts, is by far the most technically interesting and challenging project I've worked on. To understand the current extent of my engineering abilities, it's worth taking a look at Alexandria. I would recommend looking at the case study to see the technical decisions that we made and why we made them, as well as a walkthough of how we went about designing the app and the challenges we overcame."}</h3>
               </Fade>
               <hr />
               <Fade bottom duration={2000}>
