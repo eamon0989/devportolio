@@ -23,7 +23,7 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2>About Me</h2>
 
-              {bio.map(par => <p>{par}</p>)}
+              {bio.map((par, index) => <p key={index}>{par}</p>)}
               
               <div className="row">
                 <div className="columns download">
