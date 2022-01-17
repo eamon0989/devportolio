@@ -53,13 +53,22 @@
         "company":"Alexandria",
         "title":"Full Stack Software Engineer",
         "years":"November 2021 - Present",
-        "description":"Co-designed the relational database, API, backend and frontend of Alexandria."
+        "descriptions":["- Co-designed and created the app's relational database using PostgreSQL.",
+        "- Co-designed and implemented the backend and frontend using Node, TypeScript and React.",
+        "- Set-up and implemented automatic PR testing using GitHub actions and Docker.",
+        "- Worked with a remote team of Software Engineers to make key design decisions.",
+        "- Used user stories to design and develop backend APIs.",
+        "- Co-authored the case study outlining the technical decisions we made and why we made them."]
       },
       {
         "company":"SPOT lead at Launch School",
         "title":"SPOT lead at Launch School",
         "years":"September 2021 - November 2021",
-        "description":"Lead sessions to help fellow students understand various aspects of JavaScript, including object oriented programming, prototypal inheritance, etc."
+        "descriptions":["- Lead sessions to help other students improve their understanding of JavaScript concepts such as OOP, prototypal inheritance, hoisting, etc.",
+        "- Wrote articles to help break down and simplify technical subjects.",
+        "- Worked remotely with other leads to organize events.",
+        "- Contributed to the SPOT wiki to ensure information was easy to find.",
+        "- Made sure that new leads were correctly onboarded and that they had access to whatever they needed."]
       }
     ],
     "skills":[
@@ -86,6 +95,10 @@
       {
         "name":"Tailwind",
         "level":"85%"
+      },
+      {
+        "name":"PostgreSQL",
+        "level":"60%"
       }
     ]
   },
