@@ -11,7 +11,7 @@ class Header extends Component {
     const alexandrialogo = "images/alexandrialogo1.png";
 
     return (
-      <><header id="home">
+      <><header className="h-screen w-screen" id="home">
         <ParticlesBg type="lines" bg={true} />
 
         <nav id="nav-wrap">
@@ -60,8 +60,8 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={'https://tryalexandria.com'} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Check out my most recent project
+                <a href={'https://tryalexandria.com'} className="button flex flex-row items-center btn project-btn">
+                  <i className="hidden sm:block whitespace-nowrap fa fa-book"></i>Check out my most recent project
                 </a>
               </ul>
             </Fade>
@@ -73,14 +73,14 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header><header id="Alexandria">
+      </header><header className="h-screen w-screen flex flex-row" id="Alexandria">
           <ParticlesBg type="lines" bg={true} />
           <div className="row banner">
             <div className="banner-text">
               <Fade bottom>
-                <div className="react-awesome-reveal three columns">
+                <div className="react-awesome-reveal flex flex-col items-center three columns">
                   <img
-                    className=""
+                    className="w-4/6 md:w-auto pb-10"
                     src={alexandrialogo}
                     alt="Alexandria Logo"
                   />
@@ -92,11 +92,11 @@ class Header extends Component {
               <hr />
               <Fade bottom duration={2000}>
                 <ul className="social">
-                  <a href={'https://alexandria-reader.github.io/'} className="button btn project-btn">
-                    <i className="fa fa-book"></i>Case Study
+                  <a href={'https://alexandria-reader.github.io/'} className="button flex flex-row items-center btn project-btn">
+                    <i className="hidden sm:block whitespace-nowrap fa fa-book"></i>Case Study
                   </a>
-                  <a href={'https://github.com/alexandria-reader'} className="button btn github-btn">
-                    <i className="fa fa-github"></i>Github
+                  <a href={'https://github.com/alexandria-reader'} className="button flex flex-row items-center btn github-btn">
+                    <i className="hidden sm:block whitespace-nowrap fa fa-github"></i>Github
                   </a>
                 </ul>
               </Fade>
