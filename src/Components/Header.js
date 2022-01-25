@@ -73,7 +73,7 @@ class Header extends Component {
             <i className="icon-down-circle"></i>
           </a>
         </p>
-      </header><header className="h-screen w-screen flex flex-row" id="Alexandria">
+      </header><header className="h-screen w-screen" id="Alexandria">
           <ParticlesBg type="lines" bg={true} />
           <div className="row banner">
             <div className="banner-text">
