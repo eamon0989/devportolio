@@ -49,7 +49,7 @@ class Header extends Component {
           </ul>
         </nav>
 
-        <div className="row banner">
+        <div className="row banner w-[85%]">
           <div className="banner-text">
             <Fade bottom>
               <h1 className="responsive-headline">{name}</h1>
@@ -89,7 +89,6 @@ class Header extends Component {
               <Fade bottom duration={1200}>
                 <h3 className="react-awesome-reveal">{"Alexandria, an interactive app for learning languages through texts, is by far the most technically interesting and challenging project I've worked on. To understand the current extent of my engineering abilities, it's worth taking a look at Alexandria. I would recommend looking at the case study to see the technical decisions that we made and why we made them, as well as a walkthough of how we went about designing the app and the challenges we overcame."}</h3>
               </Fade>
-              <hr />
               <Fade bottom duration={2000}>
                 <ul className="social">
                   <a href={'https://alexandria-reader.github.io/'} className="button flex flex-row items-center btn project-btn">
