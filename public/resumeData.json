@@ -1,127 +1,161 @@
 {
-  "main": {
-    "name":"Eamon O'Callaghan",
-    "description":"I am a Full Stack Software Engineer who is passionate about problem solving. I have a strong foundation in JavaScript, HTML and CSS and have used TypeScript, React and Tailwind in recent projects. I recently co-created Alexandria, an interactive language learning app. I write about JavaScript over at Medium.",
-    "image":"profilepic.jpg",
-    "bio":["I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved with my wife to Belgium. I speak English and Spanish fluently, and am currently working on improving my intermediate level French. I love problem solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife.", "Before I started coding, I spent 7 years as a teacher which has helped me to break down difficult concepts and explain technical concepts in an easy to understand manner. I have always enjoyed learning languages and I speak several to varying degrees of fluency. The experience gained learning languages has helped me pick up programming languages quickly."],
-    "contactmessage":"Get in touch with me here.",
-    "email": "eamon0989@gmail.com",
-    "phone": "631002624",
-    "github":"https://github.com/eamon0989",
-    "project":"https://github.com/orgs/alexandria-reader/dashboard",
-    "address":{
-      "city":"Brussels",
-      "state":"Belgium"
-    },
-    "website": "http://www.eamon.eu",
-    "resumedownload":"https://drive.google.com/file/d/1toQr_coaihldESj4d_HKDixcnsND1WW4/view?usp=sharing",
-    "social":[
-      {
-        "name":"medium",
-        "url":"https://medium.com/@eamonocallaghan",
-        "className":"fa fa-medium"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/eamonocallaghan/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/eamon0989",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"email",
-        "url":"mailto: eamon0989@gmail.com",
-        "className":"fa fa-envelope"
-      }
-    ]
-  },
-  "resume":{
-    "skillmessage":"Here is my level of comfort with each skill and technology below. I am very comforable with reading and learning from documention, so I can get up to scratch quickly.",
-    "education":[
-      {
-        "school":"Launch School",
-        "degree":"Software Engineering Program",
-        "graduated":"October 2021",
-        "description":"A program that focuses on mastering the fundamentals of software engineering."
-      }
-    ],
-    "work":[
-      {
-        "company":"Alexandria",
-        "title":"Full Stack Software Engineer",
-        "years":"November 2021 - Present",
-        "descriptions":["- Co-designed and created the app's relational database using PostgreSQL.",
-        "- Co-designed and implemented the backend and frontend using Node, TypeScript and React.",
-        "- Set-up and implemented automatic PR testing using GitHub actions and Docker.",
-        "- Worked with a remote team of Software Engineers to make key design decisions.",
-        "- Used user stories to design and develop backend APIs.",
-        "- Co-authored the case study outlining the technical decisions we made and why we made them."]
-      },
-      {
-        "company":"SPOT lead at Launch School",
-        "title":"SPOT lead at Launch School",
-        "years":"September 2021 - November 2021",
-        "descriptions":["- Lead sessions to help other students improve their understanding of JavaScript concepts such as OOP, prototypal inheritance, hoisting, etc.",
-        "- Wrote articles to help break down and simplify technical subjects.",
-        "- Worked remotely with other leads to organize events.",
-        "- Contributed to the SPOT wiki to ensure information was easy to find.",
-        "- Made sure that new leads were correctly onboarded and that they had access to whatever they needed."]
-      }
-    ],
-    "skills":[
-      {
-        "name":"Javascript",
-        "level":"90%"
-      },
-      {
-        "name":"TypeScript",
-        "level":"70%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"70%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML",
-        "level":"90%"
-      },
-      {
-        "name":"Tailwind",
-        "level":"85%"
-      },
-      {
-        "name":"PostgreSQL",
-        "level":"60%"
-      }
-    ]
-  },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"Alexandria",
-        "category":"An interactive web app for learning languages through reading.",
-        "image":"alexandria.png",
-        "url":"https://tryalexandria.com"
-      },
-      {
-        "title":"Contacts manager",
-        "category":"An interactive full stack contacts manager with support for tags.",
-        "image":"contactsmanager.png",
-        "url":"https://contacts-manager-fullstack.herokuapp.com/"
-      },
-      {
-        "title":"Launch School time estimator",
-        "category":"An interactive app that helps you estimate how long it will take you to complete Launch School.",
-        "image":"lsestimate.png",
-        "url":"https://launchschooltimeestimate.netlify.app/"
-      }
-    ]
-  }
+	"main": {
+		"name": "Eamon O'Callaghan",
+		"description": "I am a Full Stack Software Engineer with a strong foundation in JavaScript, TypeScript, Nodejs, HTML and CSS and have used React, Tailwind and Nestjs in recent projects. I pride myself on writing good documentation and extensive testing. I recently co-created Alexandria, an interactive language learning app. I write about JavaScript over at Medium.",
+		"image": "profilepic.jpg",
+		"bio": [
+			"I'm originally from Ireland, but after spending 7 years living in the south of Spain I've recently moved to Austria. I speak English and Spanish fluently, speak intermediate level French, and am currently learning German. I love problem solving, challenging myself and learning new things. When I'm not coding, I'm usually out running or cycling, or exploring new places with my wife.",
+			"Before I started coding, I spent 7 years as a teacher which has helped me to break down difficult concepts and explain technical concepts in an easy to understand manner. I have always enjoyed learning languages and I speak several to varying degrees of fluency. The experience gained learning languages has helped me pick up programming languages quickly."
+		],
+		"contactmessage": "Get in touch with me here.",
+		"email": "eamon0989@gmail.com",
+		"phone": "631002624",
+		"github": "https://github.com/eamon0989",
+		"project": "https://github.com/orgs/alexandria-reader/dashboard",
+		"address": {
+			"city": "Brussels",
+			"state": "Belgium"
+		},
+		"website": "http://www.eamon.eu",
+		"resumedownload": "https://drive.google.com/file/d/1toQr_coaihldESj4d_HKDixcnsND1WW4/view?usp=sharing",
+		"social": [
+			{
+				"name": "medium",
+				"url": "https://medium.com/@eamonocallaghan",
+				"className": "fa fa-medium"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/eamonocallaghan/",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "github",
+				"url": "https://github.com/eamon0989",
+				"className": "fa fa-github"
+			},
+			{
+				"name": "email",
+				"url": "mailto: eamon0989@gmail.com",
+				"className": "fa fa-envelope"
+			}
+		]
+	},
+	"resume": {
+		"skillmessage": "Here is my level of comfort with each skill and technology below. I am very comforable with reading and learning from documention, so I can get up to scratch quickly.",
+		"education": [
+			{
+				"school": "Launch School",
+				"degree": "Software Engineering Program",
+				"graduated": "October 2021",
+				"description": "A program that focuses on mastering the fundamentals of software engineering."
+			}
+		],
+		"work": [
+			{
+				"company": "S1SEVEN",
+				"title": "Full Stack Software Engineer",
+				"years": "March 2022 - Present",
+				"descriptions": [
+					"- Worked on an open-source project allowing easy file management between local filesystem and s3",
+					"- Added NX to our monorepo, dramatically reducing the build/test time by using caching to check what had changed and only build/test affected apps",
+					"- Improved our CI workflow with Github Actions",
+					"- Added e2e testing using newman/postman for our API",
+					"- Worked on open-source tooling that generates PDFs and HTML from a JSON schema",
+					"- Wrote articles explaining how to interact with API using Node-Red",
+					"- Used Vue and Handlebars to create templates and documentation",
+					"- Write extensive documentation for our core product and tooling"
+				]
+			},
+			{
+				"company": "Alexandria",
+				"title": "Full Stack Software Engineer",
+				"years": "November 2021 - Present",
+				"descriptions": [
+					"- Co-designed and created the app's relational database using PostgreSQL.",
+					"- Co-designed and implemented the backend and frontend using Node, TypeScript and React.",
+					"- Set-up and implemented automatic PR testing using GitHub actions and Docker.",
+					"- Worked with a remote team of Software Engineers to make key design decisions.",
+					"- Used user stories to design and develop backend APIs.",
+					"- Co-authored the case study outlining the technical decisions we made and why we made them."
+				]
+			},
+			{
+				"company": "SPOT lead at Launch School",
+				"title": "SPOT lead at Launch School",
+				"years": "September 2021 - November 2021",
+				"descriptions": [
+					"- Lead sessions to help other students improve their understanding of JavaScript concepts such as OOP, prototypal inheritance, hoisting, etc.",
+					"- Wrote articles to help break down and simplify technical subjects.",
+					"- Worked remotely with other leads to organize events.",
+					"- Contributed to the SPOT wiki to ensure information was easy to find.",
+					"- Made sure that new leads were correctly onboarded and that they had access to whatever they needed."
+				]
+			}
+		],
+		"skills": [
+			{
+				"name": "Javascript",
+				"level": "90%"
+			},
+			{
+				"name": "TypeScript",
+				"level": "85%"
+			},
+			{
+				"name": "Nodejs",
+				"level": "85%"
+			},
+			{
+				"name": "ReactJs",
+				"level": "70%"
+			},
+			{
+				"name": "CSS",
+				"level": "90%"
+			},
+			{
+				"name": "Lerna/NX",
+				"level": "90%"
+			},
+			{
+				"name": "HTML",
+				"level": "90%"
+			},
+			{
+				"name": "Tailwind",
+				"level": "85%"
+			},
+			{
+				"name": "PostgreSQL",
+				"level": "70%"
+			},
+			{
+				"name": "Nestjs",
+				"level": "70%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "Alexandria",
+				"category": "An interactive web app for learning languages through reading.",
+				"image": "alexandria.png",
+				"url": "https://tryalexandria.com"
+			},
+			{
+				"title": "Contacts manager",
+				"category": "An interactive full stack contacts manager with support for tags.",
+				"image": "contactsmanager.png",
+				"url": "https://contacts-manager-fullstack.herokuapp.com/"
+			},
+			{
+				"title": "Launch School time estimator",
+				"category": "A simple interactive app that helps you estimate how long it will take you to complete Launch School.",
+				"image": "lsestimate.png",
+				"url": "https://launchschooltimeestimate.netlify.app/"
+			}
+		]
+	}
 }
